@@ -1,0 +1,17 @@
+.Designs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .design-Items {
+    display: flex;
+    flex-direction: column;
+
+    .icontitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}

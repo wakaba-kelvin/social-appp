@@ -1,0 +1,29 @@
+.menuitems2 {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: unset;
+
+  .MENuitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    height: 5vh;
+
+    .menuIcons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      height: 5vh;
+    }
+
+    .valueofMenu {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

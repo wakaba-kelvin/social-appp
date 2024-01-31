@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  gap: 10px;
+}
+
+.updown {
+  display: flex;
+  flex-direction: column;
+}
