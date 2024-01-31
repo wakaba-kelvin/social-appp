@@ -1,6 +1,5 @@
 import React from "react";
-import "../Layouts/MoreInfo.scss";
-import { useState } from "react";
+import { useState } from "react";c
 import umbrella from "../assets/unsplash_c1rOy44wuts.png";
 import rollerCoaster from "../assets/unsplash_XeYx043QD5U.png";
 import location from "../assets/map-pin.png";
@@ -9,12 +8,12 @@ import web from "../assets/Group.png";
 import caseTools from "../assets/briefcase.png";
 import RightMoreInfo from "../Components/RightMoreInfo";
 
-const MoreInfo = () => {
+const Centr = () => {
   const [progressPercentage, setprogressPercentage] = useState(80);
   return (
     <div className="bottom-info">
       <div className="left-more-info">
-        <div className="complete-profile">
+        <div className="profile">
           <p>Complete your profile</p>
           <div className="percent">
             <progress value={progressPercentage} max="100"></progress>
@@ -22,14 +21,14 @@ const MoreInfo = () => {
           </div>
         </div>
         <div className="intro">
-          <div className="intro-heading">
+          <div className="heading">
             <h3>intro</h3>
             <p>....</p>
           </div>
-          <div className="intro-details">
+          <div className="details">
             <p>I am an expereinced Junior with well developed skills</p>
           </div>
-          <div className="location-details">
+          <div className="location-dtl">
             <div className="image-text">
               <img src={location} alt="" />
               <p>2972 Westheimer Rd.</p>
@@ -66,4 +65,4 @@ const MoreInfo = () => {
   );
 };
 
-export default MoreInfo;
+export default Centr;
